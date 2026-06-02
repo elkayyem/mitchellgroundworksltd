@@ -12,10 +12,10 @@ const VALUES = [
 ];
 
 const TEAM = [
-  { name: "Ross Mitchell", role: "Managing Director & Groundworks Lead", img: "/RossAboutMe.jpg" },
-  { name: "Harry Mitchell", role: "Director, Groundworks & Main Plant Operator", img: "/HarryAboutMe.jpg" },
-  { name: "Kevin Mitchell", role: "Director & Groundworks", img: "/KevinAboutMe.jpg" },
-  { name: "Jack Mitchell", role: "Director, Groundworks & Landscaping Specialist", img: "/JackAboutMe.jpg" },
+  { name: "Ross Mitchell", role: "Managing Director & Groundworks Lead", img: `${import.meta.env.BASE_URL}RossAboutMe.jpg` },
+  { name: "Harry Mitchell", role: "Director, Groundworks & Main Plant Operator", img: `${import.meta.env.BASE_URL}HarryAboutMe.jpg` },
+  { name: "Kevin Mitchell", role: "Director & Groundworks", img: `${import.meta.env.BASE_URL}KevinAboutMe.jpg` },
+  { name: "Jack Mitchell", role: "Director, Groundworks & Landscaping Specialist", img: `${import.meta.env.BASE_URL}JackAboutMe.jpg` },
 ];
 
 const TIMELINE = [
